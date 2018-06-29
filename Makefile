@@ -25,6 +25,7 @@ CLOUDFILES_CONTAINER=my_cloudfiles_container
 
 DROPBOX_DIR=~/Dropbox/Public/
 
+GITHUB_PAGES_REMOTE=git@github.com:brokenlyre/brokenlyre.github.io.git
 GITHUB_PAGES_BRANCH=master
 
 DEBUG ?= 0

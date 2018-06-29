@@ -1,7 +1,7 @@
 Title: My First Content
 Date: 2018-06-28 18:05
 Modified: 2018-06-28 18:05
-Category: Python
+Category: Blog
 Tags: pelican, publishing
 Slug: my-first-post
 Authors: Stuart Davis

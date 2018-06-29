@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Stuart'
 SITENAME = 'Stuart M. Davis - Polymath'
-SITEURL = ''
+SITEURL = 'http://www.polymathist.me'
 
 PATH = 'content'
 
@@ -32,4 +32,12 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
+
+# These are my added items
+DISPLAY_CATEGORIES_ON_MENU = FALSE
+GITHUB_URL = 'https://github.com/brokenlyre/'
+TWITTER_USERNAME = 'stuartmdavis'
+STATIC_PATHS = [
+	'CNAME',
+	]
