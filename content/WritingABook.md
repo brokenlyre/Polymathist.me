@@ -20,4 +20,11 @@ Granted I've never written a book before. And when I haven't done stuff before, 
 
 ### Videos
 
-[![How to write an award-winning bestselling first novel | Nathan Filer | TEDxYouth@Bath](./media/NMQGa6grfeE.png)](http://www.youtube.com/watch?v=NMQGa6grfeE")
+[![How to write an award-winning bestselling first novel | Nathan Filer | TEDxYouth@Bath][img1]][vid1]
+
+[![How To Write A Book For Beginners | Stefan Pylarinos | Project Life Mastery][img2]][vid2]
+
+[img1]: ./media/NMQGa6grfeE.png
+[vid1]: http://www.youtube.com/watch?v=NMQGa6grfeE "Nathan Filer"
+[img2]: ./media/fCRCQdg1HaE.png
+[vid2]: http://www.youtube.com/watch?v=fCRCQdg1HaE "Stefan Pylarinos"
