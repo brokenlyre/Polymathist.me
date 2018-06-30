@@ -28,6 +28,8 @@ DROPBOX_DIR=~/Dropbox/Public/
 GITHUB_PAGES_REMOTE=git@github.com:brokenlyre/brokenlyre.github.io.git
 GITHUB_PAGES_BRANCH=master
 
+GIT_COMMIT_HASH = $(shell git rev-parse HEAD)
+
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)
 	PELICANOPTS += -D
@@ -119,7 +121,7 @@ cf_upload: publish
 	cd $(OUTPUTDIR) && swift -v -A https://auth.api.rackspacecloud.com/v1.0 -U $(CLOUDFILES_USERNAME) -K $(CLOUDFILES_API_KEY) upload -c $(CLOUDFILES_CONTAINER) .
 
 github: publish
-	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
-	git push $(GITHUB_PAGES_REMOTE) $(GITHUB_PAGES_BRANCH)
+	ghp-import -n -m "Generate Pelican site from $(GIT_COMMIT_HASH)" -b gh-pages $(OUTPUTDIR)
+	git push $(GITHUB_PAGES_REMOTE) gh-pages:$(GITHUB_PAGES_BRANCH)
 
 .PHONY: html help clean regenerate serve serve-global devserver stopserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github

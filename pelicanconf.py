@@ -35,9 +35,17 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 
 # These are my added items
-DISPLAY_CATEGORIES_ON_MENU = True
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = False
+MENUITEMS = (('Pilosophies', '/pages/stuart-m-davis-philosophies.html'),
+    ('Blog', '/category/blog.html'),
+    )
 GITHUB_URL = 'https://github.com/brokenlyre/'
 TWITTER_USERNAME = 'stuartmdavis'
 STATIC_PATHS = [
-	'CNAME','media'
+	'CNAME','media','favicon.ico'
 	]
+THEME = 'pelican-bootstrap3'
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+PLUGIN_PATHS = ['C:\\Users\\Stuart\\projects\\pelican-plugins\\pelican-plugins']
+PLUGINS = ['i18n_subsites']
