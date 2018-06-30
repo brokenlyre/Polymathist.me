@@ -35,9 +35,9 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 
 # These are my added items
-DISPLAY_CATEGORIES_ON_MENU = FALSE
+DISPLAY_CATEGORIES_ON_MENU = True
 GITHUB_URL = 'https://github.com/brokenlyre/'
 TWITTER_USERNAME = 'stuartmdavis'
 STATIC_PATHS = [
-	'CNAME',
+	'CNAME','media'
 	]
