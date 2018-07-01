@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Stuart'
+AUTHOR = 'Stuart M. Davis'
 SITENAME = 'Stuart M. Davis - Polymath'
 SITEURL = 'http://www.polymathist.me'
 
@@ -26,26 +26,38 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('twitter', 'http://twitter.com/stuartmdavis', 'twitter'),
+          ('linkedin', 'http://www.linkedin.com/in/stuartmdavis/', 'linkedin'),)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+RELATIVE_URLS = False
 
 # These are my added items
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
-MENUITEMS = (('Pilosophies', '/pages/stuart-m-davis-philosophies.html'),
+MENUITEMS = (
+	('Pilosophies', '/pages/stuart-m-davis-philosophies.html'),
     ('Blog', '/category/blog.html'),
     )
 GITHUB_URL = 'https://github.com/brokenlyre/'
 TWITTER_USERNAME = 'stuartmdavis'
 STATIC_PATHS = [
-	'CNAME','media','favicon.ico'
+	'CNAME','media'
 	]
 THEME = 'pelican-bootstrap3'
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 PLUGIN_PATHS = ['C:\\Users\\Stuart\\projects\\pelican-plugins\\pelican-plugins']
-PLUGINS = ['i18n_subsites']
+PLUGINS = ['i18n_subsites', 'tag_cloud']
+BOOTSTRAP_NAVBAR_INVERSE = True
+FAVICON = '/media/favicon.ico'
+ABOUT_ME = 'Obstacle Crusher and Creativity Beckoner. Regardless of the position I am in, I develop fiercely honest relationships that advance personal growth, critical thinking and boldly simply execution.'
+AVATAR = '/media/SMD_Self.jpg'
+DISPLAY_TAGS_ON_SIDEBAR = 'True'
+TAGS_URL = 'tags.html'
+ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
+MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/index.html'
+DISPLAY_ARCHIVE_ON_SIDEBAR = True

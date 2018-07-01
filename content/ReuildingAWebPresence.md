@@ -5,9 +5,9 @@ Category: Blog
 Tags: process, approach, writing
 Slug: rebuilding-web-presence
 Authors: Stuart Davis
-Summary: I've done many flavors of sites in been in and out of so many different social spaces... it's time to lock in
+Summary: I just took a stroll through the [wayback machine](https://web.archive.org/) to get a sense at how long I've been at this from a website perspective. As far as I can tell one of main properties was stood up around 2002 where I used a cutting edge flash animation as my main navigation feature. The next major revamp after that included an archive of various doodles and a decent set of reviews regarding the cigars that I had endured. More on that some other time...
 
-# Wayback and back again
+## Wayback and back again
 
 I just took a stroll through the [wayback machine](https://web.archive.org/) to get a sense at how long I've been at this from a website perspective. As far as I can tell one of main properties was stood up around 2002 where I used a cutting edge flash animation as my main navigation feature. The next major revamp after that included an archive of various doodles and a decent set of reviews regarding the cigars that I had endured. More on that some other time.
 
@@ -15,10 +15,12 @@ I didn't stop with the one site as I felt the need to maintain different levels 
 
 Alas... my focus shifted
 
-## Twitter
+### Twitter
 
 Oh my. I hadn't been on twitter for some time but just a quick dose helps me to realize that it's interesting to recognize your past vices and interests but that it's important to trim the fat to meet your current needs.
 
-## Pelican
+### Pelican
 
 I know that I want to create a site but I want to do it on the cheap as much as possible. A friend has been working through a Pelican static site hosted on github and I think that is going to be the best option. There are a lot of things to figure out about this.
+
+I came across a decent article/tutorial [here](https://appliedcaffeine.org/navbaritems.html "Applied Caffeine - Pelican navbar menu items") regarding the implementation of custom menu items in the navigation bar and that lead me to initial adopting the [bootstrap3](https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3 "bootstrap3 on github") theme as a starting point for the site.
