@@ -40,6 +40,7 @@ DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = (
 	('Pilosophies', '/pages/stuart-m-davis-philosophies.html'),
     ('Blog', '/category/blog.html'),
+    ('CV', '/pages/stuart-m-davis-resume.html')
     )
 GITHUB_URL = 'https://github.com/brokenlyre/'
 TWITTER_USERNAME = 'stuartmdavis'
