@@ -5,7 +5,10 @@ Category: About
 Tags: philosophy
 Slug: stuart-m-davis-philosophies
 Authors: Stuart Davis
-Summary: The philosophies that I live by
+
+<!-- PELICAN_BEGIN_SUMMARY --> 
+The philosophies that I live by
+<!-- PELICAN_END_SUMMARY --> 
 
 <center>
 

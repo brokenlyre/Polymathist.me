@@ -5,7 +5,10 @@ Category: Blog
 Tags: gtd, organizing, creating, developing
 Slug: need-organization-life
 Authors: Stuart Davis
-Summary: I've got too many tools that fill various gaps and I'm wondering if I can bring it all together
+
+<!-- PELICAN_BEGIN_SUMMARY -->
+I've got too many tools that fill various gaps and I'm wondering if I can bring it all together
+<!-- PELICAN_END_SUMMARY --> 
 
 - A decent place to take notes
 - A decent place to store notes

@@ -5,7 +5,10 @@ Category: Blog
 Tags: process, approach, gtd
 Slug: stay-organized
 Authors: Stuart Davis
-Summary: I've dealt with organizing and re-organizing and I'm sure I'll just continue dealing with it
+
+<!-- PELICAN_BEGIN_SUMMARY -->
+I've dealt with organizing and re-organizing and I'm sure I'll just continue dealing with it
+<!-- PELICAN_END_SUMMARY --> 
 
 No.
 

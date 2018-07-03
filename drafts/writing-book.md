@@ -5,7 +5,10 @@ Category: Blog
 Tags: writing, publishing, process, approach, book
 Slug: writing-book
 Authors: Stuart Davis
-Summary: A few thoughts about my on and off again consideration to write a book
+
+<!-- PELICAN_BEGIN_SUMMARY -->
+A few thoughts about my on and off again consideration to write a book.
+<!-- PELICAN_END_SUMMARY --> 
 
 # I'm writing a book
 

@@ -5,9 +5,10 @@ Category: resume
 Tags: resume, cv
 Slug: stuart-m-davis-resume
 Authors: Stuart Davis
-Summary: This is a fairly detailed rundown of my experiences
 
+<!-- PELICAN_BEGIN_SUMMARY --> 
 Through nearly twenty years in the analytics field, I have honed an ability to connect the dots amongst disparate data sources such that technology and advanced analytics teams can execute on visionary approaches to business intelligence and analytics.  As a leader, I focus on developing fiercely honest relationships that advance critical thinking, personal growth, and boldly simple execution.
+<!-- PELICAN_END_SUMMARY --> 
 
 <center>
 

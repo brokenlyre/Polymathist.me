@@ -5,9 +5,10 @@ Category: Articles
 Tags: writing, publishing
 Slug: determining-granular-creative-aspects
 Authors: Stuart Davis
-Summary: Many years ago I was invited to produce an article for the now defunct 'Digitrends' magazine and their online presence 'Digitrends.net'. I took a little bit of perusing (again in the wayback machine), but I was able to find it. I've replicated it here knowing that I won't have to search high and low for it in the future.
 
+<!-- PELICAN_BEGIN_SUMMARY --> 
 Many years ago I was invited to produce an article for the now defunct 'Digitrends' magazine and their online presence 'Digitrends.net'. I took a little bit of perusing (again in the wayback machine), but I was able to find it. I've replicated it here knowing that I won't have to search high and low for it in the future.  
+<!-- PELICAN_END_SUMMARY --> 
 
 Replicated via reference to [this listing](https://web.archive.org/web/20011218085136/http://www.digitrends.net/marketing/13639_13168.html) at the [wayback machine](https://web.archive.org/)
 
