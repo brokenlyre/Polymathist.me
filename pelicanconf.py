@@ -37,22 +37,29 @@ RELATIVE_URLS = False
 # These are my added items
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
-MENUITEMS = (
-	('Pilosophies', '/pages/stuart-m-davis-philosophies.html'),
-    ('Blog', '/category/blog.html'),
-    ('CV', '/pages/stuart-m-davis-resume.html')
-    )
 GITHUB_URL = 'https://github.com/brokenlyre/'
 TWITTER_USERNAME = 'stuartmdavis'
 STATIC_PATHS = [
-	'CNAME','media'
+	'extra/CNAME','media','extra/README.MD','extra/favicon.ico'
 	]
+EXTRA_PATH_METADATA = {
+    'extra/README.MD': {'path': 'README.md'},
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/CNAME': {'path': 'CNAME'}
+}
+
+# Theme specifics
 THEME = 'pelican-bootstrap3'
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+MENUITEMS = (
+    ('Pilosophies', '/pages/stuart-m-davis-philosophies.html'),
+    ('Blog', '/category/blog.html'),
+    ('CV', '/pages/stuart-m-davis-resume.html')
+    )   
 PLUGIN_PATHS = ['C:\\Users\\Stuart\\projects\\pelican-plugins\\pelican-plugins']
 PLUGINS = ['i18n_subsites', 'tag_cloud', 'summary']
 BOOTSTRAP_NAVBAR_INVERSE = True
-FAVICON = '/media/favicon.ico'
+FAVICON = './favicon.ico'
 ABOUT_ME = 'Obstacle Crusher and Creativity Beckoner. Regardless of the position I am in, I develop fiercely honest relationships that advance personal growth, critical thinking and boldly simply execution.'
 AVATAR = '/media/SMD_Self.jpg'
 DISPLAY_TAGS_ON_SIDEBAR = 'True'
