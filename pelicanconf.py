@@ -20,14 +20,19 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+
+# LINKS = (('Pelican', 'http://getpelican.com/'),
+#          ('Python.org', 'http://python.org/'),
+#          ('Jinja2', 'http://jinja.pocoo.org/'),
+#          ('You can modify those links in your config file', '#'),)
 
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/stuartmdavis', 'twitter'),
-          ('linkedin', 'http://www.linkedin.com/in/stuartmdavis/', 'linkedin'),)
+          ('linkedin', 'http://www.linkedin.com/in/stuartmdavis/', 'linkedin'),
+          ('reddit', 'https://www.reddit.com/user/smdavis42', 'reddit'),
+          ('instagram', 'https://www.instagram.com/stuartmdavis/', 'instagram'),
+          ('pinterest', 'https://www.pinterest.com/stuartmdavis/', 'pinterest'),
+          ('quora', 'https://www.quora.com/profile/Stuart-Davis-2', 'quora'),)
 
 DEFAULT_PAGINATION = 10
 

@@ -20,16 +20,18 @@ Through nearly twenty years in the analytics field, I have honed an ability to c
 December 2005 to Present  
 Livonia; Detroit, MI
 
-**PRODUCT OWNER** (May 2010 – Present)
+*Detroit-based Quicken Loans Inc. is the nation’s largest home mortgage lender. The company closed more than $400 billion of mortgage volume across all 50 states from 2013 through 2017. Quicken Loans moved its headquarters to downtown Detroit in 2010. Today, Quicken Loans and its Family of Companies employ more than 17,000 full-time team members in Detroit’s urban core. The company generates loan production from web centers located in Detroit, Cleveland and Phoenix. Quicken Loans also operates a centralized loan processing facility in Detroit, as well as its San Diego-based One Reverse Mortgage unit. Quicken Loans ranked highest in the country for customer satisfaction for primary mortgage origination by J.D. Power for the past eight consecutive years, 2010 – 2017, and also ranked highest in the country for customer satisfaction among all mortgage servicers the past four consecutive years, 2014 – 2017.*
+
+**PRODUCT OWNER** (January 2018 – Present)
  
 
-**DATA ANALYST ARCHITECT** (May 2010 – Present)
+**DATA ANALYST ARCHITECT** (June 2015 – Present)
  
 
-**DIRECTOR OF MARKETING RESEARCH** (May 2010 – Present)
+**DIRECTOR OF MARKETING RESEARCH** (September 2013 – June 2015)
  
 
-**DIRECTOR OF PREDICTIVE ANALYTICS** (May 2010 – Present)
+**DIRECTOR OF PREDICTIVE ANALYTICS** (May 2010 – September 2013)
 
 - Developed enterprise center of excellence for advanced analytics and modeling
 - Researched and implemented a focus on Big Data technologies and analytical approaches with a multi-disciplinary Data Science team.
@@ -58,6 +60,8 @@ Livonia; Detroit, MI
 September 1999 to December 2005  
 Ann Arbor, MI 
 
+*Beyond Interactive, now MediaCom Interaction is the interactive arm to Mediacom of Grey Global Group, a subsidiary of WPP. Beyond Interactive uses targeted media, revolutionary technology and insightful creative to achieve valuable and measurable results for their clients by utilizing a unique combination of strategy and creativity. The goal is to initiate, develop, maintain and evolve a digital relationship between a client’s brand and its customers. Beyond Interactive has a presence in 23 countries offering a truly global digital marketing solution.*
+
 **DIRECTOR OF DATA MANAGEMENT** (February 2005 – December 2005)
 
 - Directed software developers to create efficient and accurate means of aggregating and centralizing marketing data.
@@ -84,6 +88,8 @@ Ann Arbor, MI
 ### Megswork
 September 2003 to June 2004  
 Adrian, MI 
+
+*Megswork produces “The Patient Medical Journal,” an organizational tool that assists the patient, caregivers and medical staff in all aspects of the patient's care. The firm was created in response to the owners’ personal experiences while attempting to keep their daughter’s medical documentation straight during her fight with cancer.*
 
 **BUSINESS CONSULTANT** - pro bono (September 2003 to June 2004)  
 Began working with Megswork as a Master’s project in marketing and voluntarily provided consultation services after the academic requirements were complete. Provided strategic business advice regarding:
