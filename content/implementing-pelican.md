@@ -8,14 +8,14 @@ Authors: Stuart Davis
 
 ## Let's roll out!
 <!-- PELICAN_BEGIN_SUMMARY -->
-I had already mentioned [here](./rebuilding-web-presence.html) that I would write about the process of rolling out this website via [Pelican] and [github pages]. Instead of trying to recollect how I did it for this website, I am going to go ahead a start cataloging what I do to get one of my other properties up and running. There will definitely be one thing that's a little different based on the folder structure needed within the appropriate repository on github, but I will be sure to highlight that difference and note that it will be useful for others to consider.
+I had already mentioned [here](./rebuilding-web-presence.html) that I would write about the process of rolling out this website via [Pelican](https://blog.getpelican.com/) and [github pages](https://pages.github.com/). Instead of trying to recollect how I did it for this website, I am going to go ahead a start cataloging what I do to get one of my other properties up and running. There will definitely be one thing that's a little different based on the folder structure needed within the appropriate repository on github, but I will be sure to highlight that difference and note that it will be useful for others to consider.
 <!-- PELICAN_END_SUMMARY -->
 
 ## Get Pelican
 
-Well... I suppose that's a couple of stages down the road. First thing to realize is that Pelican is a Python solution and as such you will need a python environment. That's fairly easily accomplished by grabbing the latest distribution from [anaconda]. You will also need a github account and will need to download and install [git].
+Well... I suppose that's a couple of stages down the road. First thing to realize is that Pelican is a Python solution and as such you will need a python environment. That's fairly easily accomplished by grabbing the latest distribution from [anaconda](https://www.anaconda.com/download/). You will also need a github account and will need to download and install [git](https://git-scm.com/downloads).
 
-Now here's where I'm going to mess things up quite a bit because it's a part that I'm not really wanting to replicate as I already have my environment installed. But I can summarize a few things that you will readily find at the [Pelican] reference documentation. But once Python is installed, open up the anaconda prompt and fire off the following command:
+Now here's where I'm going to mess things up quite a bit because it's a part that I'm not really wanting to replicate as I already have my environment installed. But I can summarize a few things that you will readily find at the [Pelican](https://blog.getpelican.com/) reference documentation. But once Python is installed, open up the anaconda prompt and fire off the following command:
 
 ```python
 pip install pelican
@@ -39,7 +39,7 @@ Now you're pretty much ready to kick start a project. I navigated to an appropri
 pelican-quickstart
 ```
 
-There's a lot to consider with the quickstart. A lot of options you can just accept as default but you absolutely need to pay attention to the deployment options. Many of the items are editable after the fact in the ``pelicanconf.py`` and ``publishconf.py``. Additional considerations evolve around generation and deployment through either Fabric or Make. As such there will be items that are configurable in ``fabfile.py`` or ``Makefile`` respectively. I say all that to say this... please be sure to reference the [Pelican documentation] a lot and many times over. A lot of it didn't sink in the first time through.
+There's a lot to consider with the quickstart. A lot of options you can just accept as default but you absolutely need to pay attention to the deployment options. Many of the items are editable after the fact in the ``pelicanconf.py`` and ``publishconf.py``. Additional considerations evolve around generation and deployment through either Fabric or Make. As such there will be items that are configurable in ``fabfile.py`` or ``Makefile`` respectively. I say all that to say this... please be sure to reference the [Pelican documentation](http://docs.getpelican.com/en/stable/index.html) a lot and many times over. A lot of it didn't sink in the first time through.
 
 ## My process
 
@@ -153,19 +153,15 @@ I use google domains - but in essence every domain registrar should have somethi
 |      |      |     | 192.30.252.154 |
 | www  | CNAME | 1h | username.github.io |
 
+
 Even if this is a project site, just put in the ``username.github.io`` version and don't attempt to add a directory in line. You can then head to your website url and see how fast the dns updates. In my case the updates took a couple of hours. So don't sweat it if the site doesn't load right away.
 
 ## And..... go
 
-Hopefully this ~~gits~~ gets you to a good spot with setting up a static site. I'm sure I've missed a thing here and there. Feel free to offer a correction on my [issues page](https://github.com/brokenlyre/Polymathist.me/issues) if you do see anything grossly out of order.
+Hopefully this gets you to a good spot with setting up a static site. I'm sure I've missed a thing here and there. Feel free to offer a correction on my [issues page](https://github.com/brokenlyre/Polymathist.me/issues) if you do see anything grossly out of order.
 
 Regards,  
 Stuart
 
-[Pelican]:(https://blog.getpelican.com/)
-[github pages]:(https://pages.github.com/)
-[anaconda]:(https://www.anaconda.com/download/)
-[git]:(https://git-scm.com/downloads)
-[Pelican documentation]:(http://docs.getpelican.com/en/stable/index.html)
 
 
