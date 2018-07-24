@@ -57,7 +57,7 @@ EXTRA_PATH_METADATA = {
 THEME = 'pelican-bootstrap3'
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 MENUITEMS = (
-    ('Pilosophies', '/pages/stuart-m-davis-philosophies.html'),
+    ('Philosophies', '/pages/stuart-m-davis-philosophies.html'),
     ('Blog', '/category/blog.html'),
     ('CV', '/pages/stuart-m-davis-resume.html')
     )   
