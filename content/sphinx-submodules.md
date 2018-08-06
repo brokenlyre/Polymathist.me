@@ -1,6 +1,6 @@
 Title: Sphinx, Intersphinx, & Submodules for Document Compendium
-Date: 2018-07-24 12:30
-Modified: 2018-07-24 12:30
+Date: 2018-08-05 21:30
+Modified: 2018-08-05 21:30
 Category: Blog
 Tags: writing, sphinx, git, submodules, intersphinx
 Slug: sphinx-submodules
