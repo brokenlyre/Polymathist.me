@@ -8,7 +8,7 @@ Authors: Stuart Davis
 
 ## Let's roll out!
 <!-- PELICAN_BEGIN_SUMMARY -->
-I had already mentioned [here](./rebuilding-web-presence.html) that I would write about the process of rolling out this website via [Pelican](https://blog.getpelican.com/) and [github pages](https://pages.github.com/). Instead of trying to recollect how I did it for this website, I am going to go ahead a start cataloging what I do to get one of my other properties up and running. There will definitely be one thing that's a little different based on the folder structure needed within the appropriate repository on github, but I will be sure to highlight that difference and note that it will be useful for others to consider.
+I had already mentioned [here](./rebuilding-web-presence.html) that I would write about the process of rolling out this website via [Pelican](https://blog.getpelican.com/) and [github pages](https://pages.github.com/). Instead of trying to recollect how I did it for this website, I am going to go ahead a start cataloging what I do to get one of my other properties up and running. There will definitely be one thing that's a little different based on the folder structure (or branch structure) needed within the appropriate repository on github, but I will be sure to highlight that difference and note that it will be useful for others to consider.
 <!-- PELICAN_END_SUMMARY -->
 
 ## Get Pelican
@@ -39,35 +39,35 @@ Now you're pretty much ready to kick start a project. I navigated to an appropri
 pelican-quickstart
 ```
 
-There's a lot to consider with the quickstart. A lot of options you can just accept as default but you absolutely need to pay attention to the deployment options. Many of the items are editable after the fact in the ``pelicanconf.py`` and ``publishconf.py``. Additional considerations evolve around generation and deployment through either Fabric or Make. As such there will be items that are configurable in ``fabfile.py`` or ``Makefile`` respectively. I say all that to say this... please be sure to reference the [Pelican documentation](http://docs.getpelican.com/en/stable/index.html) a lot and many times over. A lot of it didn't sink in the first time through.
+There's a lot to consider with the quickstart. A lot of options you can just accept as default but you absolutely need to pay attention to the deployment options. Don't stress too much as many of the items are editable after the fact in the ``pelicanconf.py`` and ``publishconf.py``. Additional considerations revolve around generation and deployment through either Fabric or Make. As such there will be items that are configurable in ``fabfile.py`` or ``Makefile`` respectively. I say all that to say this... please be sure to reference the [Pelican documentation](http://docs.getpelican.com/en/stable/index.html) a lot and many times over. A lot of it didn't sink in the first time through.
 
 ## My process
 
-In anaconda I navigated to my project directory then made a file to house my documents
+In anaconda I navigated to my project directory then made a folder to house my documents
 
 ```shell
-mkdir /path/to/repo-name
-cd /path/to/repo-name
+$ mkdir /path/to/repo-name
+$ cd /path/to/repo-name
 ```
 
 In git I navigated to the folder and then initialized a repository
 
 ```shell
-cd /path/to/repo-name
-git init
+$ cd /path/to/repo-name
+$ git init
 ```
 
-In github I created a repository for these source files to reside in the master branch with the intention that the published information will land in the gh-pages branch. So in my local directory I simply create a ``Readme.md`` file that I will be able to push to the blank repository in github. Then I used the next commands to create a gh-pages branch
+In github I created a repository for these source files to reside in the master branch with the intention that the published information will land in the gh-pages branch. So in my local directory I simply create a ``Readme.md`` file that I will be able to push to the blank repository in github in the master branch. Then I used the next commands to create a gh-pages branch
 
 ```shell
-cd /path/to/repo-name
-git symbolic-ref HEAD refs/heads/gh-pages
-rm .git/index
-git clean -fdx
-echo "My GitHub Page" > index.html
-git add .
-git commit -a -m "First pages commit"
-git push origin gh-pages
+$ cd /path/to/repo-name
+$ git symbolic-ref HEAD refs/heads/gh-pages
+$ rm .git/index
+$ git clean -fdx
+$ echo "My GitHub Page" > index.html
+$ git add .
+$ git commit -a -m "First pages commit"
+$ git push origin gh-pages
 ```
 
 This ensures that there is a gh-pages branch to which we will publish our site documents and host the site files.
@@ -77,7 +77,7 @@ Now we need to switch back to the master branch and start up pelican
 In git bash
 
 ```shell
-git checkout master
+$ git checkout master
 ```
 
 In anaconda
@@ -130,6 +130,7 @@ To round things out and get a feel for the site when it's live, I just create a 
 
 - To get to the right place I simply copied most of my settings using the bootstrap 3 theme. I'm sure I will be taking the time at some point to change this, but it's a quick way to get things up and running.
 - In the makefile I made sure to put in a line for the right repository for the github pages account 
+
 ```Makefile
 GITHUB_PAGES_REMOTE=git@github.com:username/username.github.io.git
 ```

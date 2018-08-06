@@ -1,0 +1,33 @@
+@startuml
+
+skinparam monochrome true
+
+title
+ **An Illustration of Our Use Case**
+ end title
+
+package "Documentation A" {
+	[Page Two] as two
+	[Page One]
+	package "sub Documentation B" {
+		[sub Page Four] as four
+		[sub Page Three]
+	}
+	package "sub Documentation C" {
+		[sub Page Five] as five
+		package "sub Documentation D" {
+			[sub Page Six]
+			[sub Page Seven] as seven
+		}
+		package "sub Documentation E" {
+			[sub Page Eight] as eight
+			[sub Page Nine]
+		}
+	}
+}
+
+two -[hidden]- four
+four -[hidden]- five
+seven -[hidden]- eight
+
+@enduml

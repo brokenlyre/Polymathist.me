@@ -62,7 +62,7 @@ MENUITEMS = (
     ('CV', '/pages/stuart-m-davis-resume.html')
     )   
 PLUGIN_PATHS = ['C:\\Users\\Stuart\\projects\\pelican-plugins\\pelican-plugins']
-PLUGINS = ['i18n_subsites', 'tag_cloud', 'summary']
+PLUGINS = ['i18n_subsites', 'tag_cloud', 'summary', 'plantuml']
 BOOTSTRAP_NAVBAR_INVERSE = True
 FAVICON = './favicon.ico'
 ABOUT_ME = 'Obstacle Crusher and Creativity Beckoner. Regardless of the position I am in, I develop fiercely honest relationships that advance personal growth, critical thinking and boldly simply execution.'
