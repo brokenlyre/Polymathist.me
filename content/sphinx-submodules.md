@@ -144,7 +144,7 @@ Additionally...
 
 ## Breathe Out
 
-So yeah. It's been a been to run through both in real life and documenting it here to at least a surface level. I'm sure there are a lot of other options that could have been considered, but this seemed to meet the needs at the moment. Thanks for sticking with me on this ride. I look forward to seeing you on the next.
+So yeah. It's been quite a bit to run through both in real life and documenting it here to at least a surface level. I'm sure there are a lot of other options that could have been considered, but this seemed to meet the needs at the moment. Thanks for sticking with me on this ride. I look forward to seeing you on the next.
 
 Regards,  
 Stuart
