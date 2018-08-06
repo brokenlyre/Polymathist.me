@@ -1,7 +1,7 @@
 Title: Sphinx, Intersphinx, & Submodules for Document Compendium
 Date: 2018-07-24 12:30
 Modified: 2018-07-24 12:30
-Category: blog
+Category: Blog
 Tags: writing, sphinx, git, submodules, intersphinx
 Slug: sphinx-submodules
 Authors: Stuart Davis
@@ -29,7 +29,7 @@ So right now, as mentioned previously, one document reaches another document by 
 
 <center>
 
-![Verbose URL Link](./media/verboseurl.png)
+![Verbose URL Link](http://www.polymathist.me/media/verboseurl.png)
 
 </center>
 
@@ -54,7 +54,7 @@ By applying this methodology internally the connections feel something like this
 
 <center>
 
-![Mixed Links](./media/mixedlinks.png)
+![Mixed Links](http://www.polymathist.me/media/mixedlinks.png)
 
 </center>
 
@@ -62,7 +62,7 @@ Now what's happening under the covers is that Sphinx is putting those references
 
 <center>
 
-![Intersphinxing](./media/interpshinx.png)
+![Intersphinxing](http://www.polymathist.me/media/interpshinx.png)
 
 </center>
 
@@ -98,7 +98,7 @@ The answer here is to leverage the submodule capabilities in git. By including a
 
 <center>
 	
-![Submodule](./media/submodule.png)
+![Submodule](http://www.polymathist.me/media/submodule.png)
 
 </center>
 
@@ -138,7 +138,7 @@ Additionally...
 
 <center>
 	
-![Our Use Case](./media/ourusecase.png)
+![Our Use Case](http://www.polymathist.me/media/ourusecase.png)
 
 </center>
 
