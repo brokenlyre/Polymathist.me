@@ -62,7 +62,7 @@ Now what's happening under the covers is that Sphinx is putting those references
 
 <center>
 
-![Intersphinxing](http://www.polymathist.me/media/interpshinx.png)
+![Intersphinxing](http://www.polymathist.me/media/intersphinx.png)
 
 </center>
 
