@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Stuart M. Davis'
-SITENAME = 'Stuart M. Davis - Polymath'
-SITEURL = 'http://www.polymathist.me'
+SITENAME = 'Stuart M. Davis'
+SITEURL = 'http://www.brokenlyre.com'
 
 PATH = 'content'
 
