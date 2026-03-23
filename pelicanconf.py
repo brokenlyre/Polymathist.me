@@ -61,7 +61,7 @@ MENUITEMS = (
     ('Blog', '/category/blog.html'),
     ('CV', '/pages/stuart-m-davis-resume.html')
     )   
-PLUGIN_PATHS = ['C:\\Users\\Stuart\\projects\\pelican-plugins\\pelican-plugins']
+PLUGIN_PATHS = ['C:\\Users\\Stuart\\repos\\pelican-plugins']
 PLUGINS = ['i18n_subsites', 'tag_cloud', 'summary', 'plantuml']
 BOOTSTRAP_NAVBAR_INVERSE = True
 FAVICON = './favicon.ico'
